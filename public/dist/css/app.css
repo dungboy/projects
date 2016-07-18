@@ -1,0 +1,26 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  line-height: 1.5em; }
+
+body {
+  font-family: "Noto Sans CJK KR", "Apple SD Gothic Neo", "맑은고딕", Sans-Serif;
+  font-size: 16px; }
+
+.copyright {
+  background-color: #0ff; }
+
+#wrap {
+  padding: 0; }
+
+#head {
+  background-color: #eee; }
+
+.contents {
+  background-color: #bbb; }
+  .contents > ul {
+    border: 1px solid #000; }
+    .contents > ul > li {
+      border: 1px solid #088; }
+      .contents > ul > li > ul {
+        background-color: #800; }
